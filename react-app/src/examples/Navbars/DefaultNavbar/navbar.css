@@ -1,0 +1,10 @@
+/* Agrega una animación para la transición de altura del menú */
+#navbar {
+    transition: height 0.3s ease-in-out;
+    height: 3rem; /* Altura del menú cuando está cerrado */
+  }
+  
+  /* Agrega la altura específica cuando el menú esté abierto */
+  #navbar.show-sidebar {
+    height: 10rem; /* Cambia esta altura según tus necesidades */
+  }

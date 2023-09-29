@@ -1,0 +1,74 @@
+.title1 {
+    font-size: 36px; /* Tamaño de la fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación del texto (center, left, right) */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    font-family: Arial, sans-serif; /* Familia de la fuente */
+    margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+  }
+
+  .home {
+    display: flex;
+    justify-content: space-between; /* Centrar los elementos horizontalmente */
+    align-items: center;
+    padding-top: -25px;
+  }
+  .hom2{
+    margin-top: -35px;
+  }
+  .texto {
+    text-align: center;
+
+  }
+  .right-content {
+    margin-left: 45px;
+  }
+  .just{
+    text-align: justify;
+  }
+  
+  .main-inner-home {
+    flex: 1; /* Para que ambos elementos ocupen el mismo espacio */
+  }
+
+  
+.main-inner-home h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  .main-inner-home h1 {
+    font-size: 35px;
+    padding-bottom: 2rem;
+    font-weight: 700;
+  }
+  
+  /* Estilos para la clase "right-content-img" */
+  .right-content-img {
+    text-align: right; /* Alinear el contenido a la derecha */
+  }
+  
+  .right-content-img img {
+    width: 40%; /* Para asegurarnos de que la imagen no se desborde */
+    display: block; /* Evitar que la imagen tenga espacio adicional debajo */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+  }
+
+  .custom-input {
+    width: 100%; /* O el ancho que desees */
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .descripcion1{
+      font-size: 20px;
+  }
+
+  
+  
+  
+  
+  
+ 
+  

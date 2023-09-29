@@ -1,0 +1,37 @@
+.centered-image-container {
+    display: flex; /* Usa flexbox para centrar horizontalmente */
+    justify-content: center; /* Centra horizontalmente el contenido */
+  }
+  
+  .centered-image {
+    width: 100px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    justify-content: center;
+   
+    /* Ajusta el valor para mover la imagen hacia la derecha */
+  }
+
+  .container {
+    display: grid;
+    place-items: center;
+    margin-top: -150px;
+     /* Ajusta el margen inferior según tus necesidades */
+  }
+
+  .hospital-text {
+    font-size: 2.2em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 30px;
+  }
+
+  
+.subtitulo {
+  font-size: 1.5em; /* Tamaño de la fuente */
+  margin-top: -20px;
+  font-family: Arial, sans-serif;
+  font-weight: 500; /* Grosor de la fuente */
+  color: #fff; /* Color del texto */
+  
+}
