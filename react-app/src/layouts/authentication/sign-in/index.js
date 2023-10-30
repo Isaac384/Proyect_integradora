@@ -16,7 +16,7 @@ import Snackbar from '@mui/material/Snackbar';
 import AlertTitle from '@mui/material/AlertTitle';
 import MuiAlert from '@mui/material/Alert';
 import Stack from '@mui/material/Stack';
-import curved9 from "assets/images/curved-images/hospital.jpg";
+import curved9 from "assets/images/curved-images/jar.jpg";
 
 
 
@@ -203,7 +203,7 @@ const SignIn = () => {
               Don&apos;t have an account?{" "}
               <SoftTypography
                 component={Link}
-                to="/authentication/sign-up"
+                to="/registrarse"
                 variant="button"
                 color="info"
                 fontWeight="medium"

@@ -55,6 +55,7 @@ import DoctorComponent from "layouts/tables/DoctorComponent";
 import EnfermedadComponent from "layouts/tables/EnfermedadComponent";
 import CitaComponent from "layouts/tables/CitaComponent";
 import Dashboard from "layouts/dashboard";
+import SignUp from "layouts/authentication/sign-up";
 
 
 
@@ -175,6 +176,7 @@ export default function App() {
           <Route path="/dashboard" element={isLoggedIn ? <Sidenav /* ... */ /> : <Navigate to="/login" />} />
           {getRoutes(routes)}
           <Route path="/login" element={<SignIn />} />
+          <Route path="/registrarse" element={<SignUp />} />
           <Route path="/error404" element={<Errores404 />} />
           <Route path="*" element={<Navigate to="/error404" />} />
         </Routes>
@@ -201,6 +203,7 @@ export default function App() {
       <Routes>
         <Route exact path="/" element={<UnioHeader />} />
         <Route path="/login" element={<SignIn />} />
+        <Route path="/registrarse" element={<SignUp />} />
         <Route path="/nosotros" element={<NostrosUnion />} />
         <Route path="/contactanos" element={<ContactanosUnion />} />
         <Route path="/error404" element={<Errores404 />} />
